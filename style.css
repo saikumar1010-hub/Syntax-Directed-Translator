@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 20px;
+}
+
+h1,
+h3 {
+    text-align: center;
+}
+
+.input-box {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 60%;
+    padding: 12px;
+    font-size: 16px;
+}
+
+button {
+    padding: 12px 20px;
+    background: orange;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background: darkorange;
+}
+
+.module {
+    background: orange;
+    color: white;
+    padding: 15px;
+    margin: 10px auto;
+    width: 80%;
+    border-radius: 10px;
+    font-size: 22px;
+}
+
+.output-box {
+    width: 80%;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 8px gray;
+}
+
+pre {
+    background: #222;
+    color: #00ff99;
+    padding: 15px;
+    border-radius: 8px;
+    min-height: 30px;
+    white-space: pre-wrap;
+}
