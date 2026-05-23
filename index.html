@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Syntax Directed Translator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Syntax Directed Translator</h1>
+<h3>Arithmetic and Control Expressions</h3>
+
+<div class="input-box">
+  <input id="input" placeholder="Example: a = b + c * d  OR  if (a > b && c < d)">
+  <button onclick="runCompiler()">Compile</button>
+  <button onclick="clearAll()">Clear</button>
+</div>
+
+<div class="module">1. Lexical & Syntax Analysis Module</div>
+<div class="module">2. Attribute Evaluation & SDT Module</div>
+<div class="module">3. Intermediate Representation & Semantic Analysis Module</div>
+
+<div class="output-box">
+  <h2>Tokens</h2>
+  <pre id="tokens"></pre>
+
+  <h2>Syntax Analysis</h2>
+  <pre id="syntax"></pre>
+
+  <h2>Parse Tree / Syntax Tree</h2>
+  <pre id="tree"></pre>
+
+  <h2>Attribute Evaluation</h2>
+  <pre id="attributes"></pre>
+
+  <h2>Symbol Table</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Variable</th>
+        <th>Type</th>
+        <th>Scope</th>
+      </tr>
+    </thead>
+    <tbody id="symbolTable"></tbody>
+  </table>
+
+  <h2>Semantic Analysis</h2>
+  <pre id="semantic"></pre>
+
+  <h2>Three Address Code</h2>
+  <pre id="tac"></pre>
+
+  <h2>Optimization</h2>
+  <pre id="optimization"></pre>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
